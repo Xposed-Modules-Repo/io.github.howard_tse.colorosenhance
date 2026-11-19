@@ -1,6 +1,6 @@
 # ColorOS 增强
 
-面向 ColorOS 16 / Android 16、ColorOS 17 / Android 17 的 LSPosed 模块。作者：**Howard**（[Howard-Tse](https://github.com/Howard-Tse)）。当前稳定版本：**1.31.1**，应用包名：`io.github.howard_tse.colorosenhance`。
+面向 ColorOS 16 / Android 16、ColorOS 17 / Android 17 的 LSPosed 模块。作者：**Howard**（[Howard-Tse](https://github.com/Howard-Tse)）。当前稳定版本为 **1.32.0**，应用包名：`io.github.howard_tse.colorosenhance`。
 
 旧包 `dev.howard.colorosenhance` 的用户应保留旧包和数据，安装并首次打开新版，按提示允许 root 读取以自动迁移设置。检测到旧模块仍启用时会提示在 LSPosed 取消旧版启用；返回后自动继续，最后完整重启并确认新版正常，再卸载旧包。无需先更新旧 APK 或手动导出文件，详见[迁移说明](https://github.com/Howard-Tse/ColorOS-Enhance/blob/main/docs/MIGRATION.md)。
 
@@ -19,6 +19,8 @@
 - **媒体流体云**：暂停／未开始播放时显示；六频段实时律动、可拖动频率轴、读取间隔与其他参数、暂停冻结柱高。采集不可用时回退原厂效果。
 - **SIM PIN 自动解锁**：独立卡槽配置、加密存储、卡片匹配和每卡每次开机一次尝试保护。
 - **安装器替换**：选择可处理 APK 的应用；可选跳过针对该安装器的普通打开确认。
+
+1.32.0 新增通知转流体云、通知中心媒体卡片、控制中心滚动边界震动，以及模块状态与诊断日志导出。设置和默认行为见[通知转换说明](https://github.com/Howard-Tse/ColorOS-Enhance/blob/main/docs/NOTIFICATION_CLOUD.md)。升级后请完整重启手机。
 
 提供独立设置应用和「系统设置 → 系统与更新」中的内嵌入口。数值参数支持滑条、手动输入及长按恢复单项默认值；六频段编辑器有独立恢复入口。各功能组首次安装默认关闭，升级保留已有配置。
 
