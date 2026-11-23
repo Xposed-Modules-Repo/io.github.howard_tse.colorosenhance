@@ -2,7 +2,9 @@
 
 面向 ColorOS 16 / Android 16、ColorOS 17 / Android 17 的 LSPosed 模块。作者：**Howard**（[Howard-Tse](https://github.com/Howard-Tse)）。当前稳定版本为 **1.32.2**，应用包名：`io.github.howard_tse.colorosenhance`。
 
-预发布版本见 [1.32.3](https://github.com/Xposed-Modules-Repo/io.github.howard_tse.colorosenhance/releases/tag/75-1.32.3)。
+预发布版本见 [1.32.4](https://github.com/Xposed-Modules-Repo/io.github.howard_tse.colorosenhance/releases/tag/76-1.32.4)。
+
+1.32.4 预发布版支持长按合并卡片进入收纳页并展开本组通知。可在「原通知处理」开启「锁屏时保留通知转流体云」，再按需开启「锁屏时显示通知流体云卡片」。两个选项均默认关闭，并遵循系统锁屏隐私设置。
 
 旧包 `dev.howard.colorosenhance` 的用户应保留旧包和数据，安装并首次打开新版，按提示允许 root 读取以自动迁移设置。检测到旧模块仍启用时会提示在 LSPosed 取消旧版启用；返回后自动继续，最后完整重启并确认新版正常，再卸载旧包。无需先更新旧 APK 或手动导出文件，详见[迁移说明](https://github.com/Howard-Tse/ColorOS-Enhance/blob/main/docs/MIGRATION.md)。
 
